@@ -209,7 +209,7 @@ namespace GaussTool
 		static void help(bool missingArg)
 		{
 			Console.WriteLine(
-@"GaussTool, Version: 2009-05-10_15-02, (Marc K.)
+@"GaussTool, Version: 2010-02-20_13-59, (Marc K.)
 
 -h, --help              Diese Hilfe ;-)
 -b, --bruch             Bruchmodus aktivieren

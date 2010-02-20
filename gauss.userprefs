@@ -1,20 +1,22 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Round.cs" ctype="Workbench">
-    <Files>
-      <File FileName="Main.cs" Line="414" Column="12" />
-      <File FileName="Round.cs" Line="60" Column="3" />
-    </Files>
+  <MonoDevelop.Ide.Workbench ctype="Workbench">
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="gauss" expanded="True">
             <Node name="ExternalFiles" expanded="True" />
-            <Node name="Round.cs" selected="True" />
+            <Node name="Main.cs" selected="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True" selected="True">
+          <Node name="gauss" expanded="True">
+            <Node name="GaussTool" expanded="True" />
+            <Node name="Mathe" expanded="True" />
+            <Node name="Mehroz" expanded="True" />
+          </Node>
+        </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />

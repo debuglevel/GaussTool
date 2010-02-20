@@ -1,20 +1,15 @@
-// AssemblyInfo.cs created with MonoDevelop
-// User: marc at 20:14 22.04.2009
-//
-// To change standard headers go to Edit->Preferences->Coding->Standard Headers
-//
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
 // Information about this assembly is defined by the following attributes. 
 // Change them to the values specific to your project.
 
-[assembly: AssemblyTitle("gauss")]
+[assembly: AssemblyTitle("GaussTool")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Marc K.")]
 [assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCopyright("GPL 3")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

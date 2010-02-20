@@ -1,7 +1,7 @@
 /*
  * License: GPLv3 (I actually don't care about v2, v3 or even another OSS-License. Just edit the code, share it, tell me about it, and keep my website in the header.) 
  * http://www.debuglevel.de
- * Author: Marc Kohaupt, Tobias Kopp (rounding-related functions)
+ * Author: Marc Kohaupt
 */
 
 using System;
@@ -209,7 +209,7 @@ namespace GaussTool
 		static void help(bool missingArg)
 		{
 			Console.WriteLine(
-@"GaussTool, Version: 2009-05-10_15-02, (Tobi K. & Marc K.)
+@"GaussTool, Version: 2009-05-10_15-02, (Marc K.)
 
 -h, --help              Diese Hilfe ;-)
 -b, --bruch             Bruchmodus aktivieren
@@ -413,12 +413,11 @@ namespace GaussTool
 		static void credits()
 		{
 			Console.WriteLine(@"Persönlicher Dank geht an:
-· Tobi, für Runden() und schnelle Fixes
 · Heinrich, für den Report eines fatalen Fehlers,
 · miguel, für Mono
 · Prof. Dr. Morgenstern, für den Ansporn
 · Herr Gauß, für den Algorithmus
-· Project Pitchfork & Blutengel, für meine Hintergrundmusik");
+· Project Pitchfork, für meine Hintergrundmusik");
 
 			string lwss=@"
       WWWWWWWW

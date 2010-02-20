@@ -142,50 +142,15 @@ namespace Mathe
 		
 		
 
-		//Rest by Tobi
+		//Stubs der proprietären Funktionen
 		public static double TRundenVormKomma(int zahl, int signifikante_stellen)
 		{
-			int stellen = Convert.ToInt32(Math.Log10(Convert.ToDouble(zahl)));
-			double erg = 0.0;
-			erg += zahl / (Math.Pow(10, stellen));
-			erg = TRunde(erg, signifikante_stellen);
-			erg *= Math.Pow(10, stellen);
-			return erg;
+			return 0;
 		} 
 		
 		public static double TRunde(double zahl, int signifikante_stellen)
 		{
-			if (zahl == 0.0)
-				return 0.0;
-			
-			bool negative = false;
-			if (zahl < 0)
-			{
-				negative = true;
-				zahl = Math.Abs(zahl);
-			}
-			
-			int decimals = Convert.ToInt32(signifikante_stellen - (Math.Truncate(Math.Log10(zahl)) + 1));
-			
-			if (decimals < 0)
-			{
-				zahl = TRundenVormKomma(Convert.ToInt32(Math.Truncate(zahl)), signifikante_stellen);
-				if (negative)
-					return (zahl - 2 * zahl);
-				else
-					return zahl;
-			}
-			
-			double erg = 0.0;
-			if (zahl > 1)
-				erg = Math.Round(zahl, decimals);
-			else
-				erg = Math.Round(zahl, decimals + 1);
-			
-			if (negative)
-				return (erg - 2 * erg);
-			else
-				return erg;
+			return 0;
 		}		
 
 	}

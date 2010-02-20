@@ -1,9 +1,3 @@
-// Gauss.cs created with MonoDevelop
-// User: marc at 13:33 10.05.2009
-//
-// To change standard headers go to Edit->Preferences->Coding->Standard Headers
-//
-
 using System;
 using Mehroz;
 using Mathe;
@@ -74,7 +68,7 @@ namespace GaussTool
 			}
 		}
 		
-		//TODO: omg, da ist noch was krumm!
+		//TODO: hier sind nach meiner Erinnerung noch Fehler drin
 		static void SwapLines(int k, int ik, Fraction[,] A, Fraction[] b, Fraction[,] e) {
 			int n = Matrix.GetSpaltenAnzahl(A);
 			

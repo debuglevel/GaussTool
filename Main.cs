@@ -34,6 +34,15 @@ namespace GaussTool
 			bool inverse = false;
 			
 
+			//Rundung-Tests
+			clArgs.AddAlias("roundtest", "rt");
+			if (clArgs["roundtest"] != null)
+			{
+				Round.RundungTest();
+				return;
+			}
+			
+			
 			//change forecolor to black 
 			clArgs.AddAlias("schwarz", "s");
 			if (clArgs["schwarz"] != null)
@@ -91,7 +100,7 @@ namespace GaussTool
 			clArgs.AddAlias("inverse", "i");
 			if (clArgs["inverse"] != null)
 			{
-				Console.WriteLine("· Inverse aktiviert");
+				Console.WriteLine("· Inverse aktiviert (Gauß-Jordan aktiviert)");
 				gaussjordan = true;				
 				inverse = true;
 			}

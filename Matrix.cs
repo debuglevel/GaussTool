@@ -1,9 +1,3 @@
-// Matrix.cs created with MonoDevelop
-// User: marc at 16:06 09.05.2009
-//
-// To change standard headers go to Edit->Preferences->Coding->Standard Headers
-//
-
 using System;
 using Mehroz;
 
